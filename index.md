@@ -83,45 +83,13 @@
             <p>
               I am currently a bachelor student enrolled in Business Administration at the <a href="https://www.unisg.ch/en">University of St. Gallen (HSG)</a> and Technical Mathematics at the <a href="https://www.tuwien.at/en/">Technical University Vienna (TU Wien).</a>
               <br><br>
-              I enjoy planning and creating things. Not so long ago (unfortunately), I've discovered my passion for programming and computation as well the mathematical aspects behind it. Therefore I've enrolled at the Technical University Vienna (TU Wien) to study Math. Why Math and not Computer Science? Because Math is the universal language of science and Computer Science is built upon math. Besides I share a personal interest in Mathematics. To balance theory with practice I use most of my free time to code on projects as well solving practical problems.
+              Not so long ago (unfortunately), I've discovered my passion for programming and computation as well the mathematical aspects behind it. Therefore I've enrolled at the Technical University Vienna (TU Wien) to study Math. Why Math and not Computer Science? Because Math is the universal language of science and Computer Science is built upon math. Besides I share a personal interest in Mathematics. To balance theory with practice I use most of my free time to code on projects as well solving practical problems in terms of efficiency, productivity and worflow as well as decreasing complexity.
               <br><br>
-              Besides sharing a deep interest for CS and Math I enjoy Philosophy as well as Finance. After my bachelors I'd like to pursue a masters degree in Computer Science.
-              <br><br>
-              I enjoy working on projects that increase efficacy, productivty and workflow. This also includes on working on solutions that decrease complexity. Subsequently I also enjoy working on projects that decrease barriers on data access. More than that I enjoy learning new things and solving problems.
             </p>
             <button class="btn" href="">Download CV</button>
           </div>
-            <div class="col">
-              <h3>Skills</h3>
-              <div class="skills">
-                <div class="row skills-content skill section-bg">
-                  <div class="col">
-                    <div class="progress">
-                      <span class="skill">C/C++ <i class="val">30%</i></span>
-                      <div class="progress-bar-wrap">
-                        <div class="progress-bar" role="progressbar" aria-valuenow="30" aria-valuemin="0" aria-valuemax="100">
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div class="skills">
-                <div class="row skills-content skill section-bg">
-                  <div class="col">
-                    <div class="progress">
-                      <span class="skill">Python<i class="val">60%</i></span>
-                      <div class="progress-bar-wrap">
-                        <div class="progress-bar" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100">
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>  
         </div>
+      </div>
     </section><!-- End About Section -->
 
 
@@ -197,9 +165,9 @@
     <section id="services" class="services portfolio section-bg">
 
         <div class="section-title">
-          <h2>Projects  </h2>
-          <p>Below you can find my latest private and university projects!
-            <br>Feel free to commit to these projects!
+          <h2>Projects</h2>
+          <p>Below you can find my latest private and university projects and an information about the development status.
+            <br>These projects do not serve any commerical purpose. They tend to be realiziation of ideas, messing with different concepts and libraries as well for practicing. Feel free to commit to these projects and do not hesitate to contact me!
           </p>
         </div>
 
@@ -220,12 +188,25 @@
         <div class="row">
           <div class="col portfolio-item filter-web" data-aos="zoom-in" data-aos-delay="100">
             <div class="icon-box">
-              <h4><a href="">Project Cavalier</a></h4>
+              <h4><a href="">Cavalier</a></h4>
               <p>Project Cavalier is a data analyis application and my first sophisticated project. It aims to automatically compute and visualize the proftiability, liquidity and risk profile of a public company using a spectrum of adequate libraries such as YFinance, Numpy, Pandas, Matplotlib, Seaborn and Streamlit libraries. The motivation behind the project is to provide a faster and more efficient alternative to derive to a conlusion about the profitability, liquidity and risk of public company. Its current functionality comprises only the calculation of Return on Invested Capital but will comprise more sophisticated tools such as DCF, EVA and more.</p>
-              <div class ="btn">Coming Soon..</div>
+              <div class ="btn">MVP will be displayed soon</div>
             </div>
             </div>
           </div>
+
+        <div class="row">
+          <div class="col portfolio-item filter-web" data-aos="zoom-in" data-aos-delay="100">
+            <div class="icon-box">
+              <h4><a href="">IPOStata</a></h4>
+              <p>IPOStata gains access on the EDGAR database and looks for the S-1 filing which is issued in anticipation of a company's IPO. It and reads the available data displayed in HTML format and derives significant information in terms of company's strategy, operations and financial statements. The data dervied is used to calcualte selected financial metrics regarding the risk, profitability profile. Subsequently the results are plotted in different graphics.<br>
+              Purpose of this project is to mess around with the Pandas HTML reader and exploit it's full benefits. Furthermore the HTML data will be converted into JSON and CSV data and serve as an API for third-party users.</p>
+              <div class ="btn">Starting phase</div>
+            </div>
+            </div>
+          </div>
+
+
     </section><!-- End Services Section -->
 
 
@@ -240,7 +221,7 @@
         <a href="#" class="medium"><i class="bx bxl-medium"></i></a>
       </div>
       <div class="copyright">
-        &copy; Copyright <strong><span>Szelcsanyi Boris</span></strong>. All Rights Reserved
+        &copy; Copyright <strong><span>Szelcsanyi Boris</span></strong>.All Rights Reserved
       </div>
       <div class="credits">
         <!-- All the links in the footer should remain intact. -->
