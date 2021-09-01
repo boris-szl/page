@@ -59,9 +59,9 @@
       <h1>Szelcsanyi Boris</h1>
       <p><span class="typed" data-typed-items="Student @ University of St. Gallen (HSG), Student @ Technical University of Vienna (TU Wien)"></span></p>
       <div class="social-links">
-        <a href="#" class="linkedin"><i class="bx bxl-linkedin"></i></a>
+        <a href="https://www.linkedin.com/in/boris-szelcsanyi/" class="linkedin"><i class="bx bxl-linkedin"></i></a>
         <a href="https://github.com/boris-szl" class="github"><i class="bx bxl-github"></i></a>
-        <a href="#" class="medium"><i class="bx bxl-medium"></i></a>  
+<!--         <a href="#" class="medium"><i class="bx bxl-medium"></i></a>   -->
       </div>
     </div>
   </section><!-- End Hero -->
@@ -216,9 +216,9 @@
   <footer id="footer">
     <div class="container">
       <div class="social-links">
-        <a href="#" class="linkedin"><i class="bx bxl-linkedin"></i></a>
+        <a href="https://www.linkedin.com/in/boris-szelcsanyi/" class="linkedin"><i class="bx bxl-linkedin"></i></a>
         <a href="https://github.com/boris-szl" class="github"><i class="bx bxl-github"></i></a>
-        <a href="#" class="medium"><i class="bx bxl-medium"></i></a>
+<!--         <a href="#" class="medium"><i class="bx bxl-medium"></i></a> -->
       </div>
       <div class="copyright">
         &copy; Copyright <strong><span>Szelcsanyi Boris</span></strong>.All Rights Reserved
